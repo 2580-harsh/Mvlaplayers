@@ -1,0 +1,40 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+table th {
+  border: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #04aa6d;
+
+  color: white;
+  transform: scale(1.1);
+  animation-timing-function: ease-in;
+}
+table td {
+  margin: 20px;
+  padding: 30px;
+  font-size: 30px;
+  border: 30px;
+}
+tr:hover {
+  background-color: #04aa6d;
+}
+div:nth-child(5) {
+  background: lightgrey;
+}
+tr:hover {
+  background-color: aqua;
+}
+
+th:hover {
+  background-color: darkblue;
+}
+table,
+tr,
+td {
+  border: none;
+}
